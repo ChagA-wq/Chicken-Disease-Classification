@@ -75,7 +75,7 @@ These metrics indicate the model's high accuracy in distinguishing between disea
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/HarshStats/Chicken-Disease-Classification-Using-MLOPS-DVC-Pipeline-.git
+   git clone https://github.com/adityab894/Chicken-Disease-Classification.git
    
 2. **Create a Conda Environment:**
 -   conda create -n chicken python=3.8 -y
